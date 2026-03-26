@@ -1,11 +1,29 @@
 // ===== Dữ liệu đầu vào =====
-    const data = [
+    var data = [
         { name: "A", value: 10 },
         { name: "B", value: 25 },
         { name: "C", value: 15 },
         { name: "D", value: 30 },
         { name: "E", value: 20 }
     ];
+
+    class PVC_BieuDoCot
+    {
+        constructor (data, colors, width, height, maxX, maxY)
+        {
+            this.data = data;
+            this.colors = colors;
+            this.width = width;
+            this.height = height;
+            this.maxX = maxX;
+            this.maxY = maxY;
+        }
+
+        render()
+        {
+            
+        }
+    }
 
     const svg = document.getElementById("chart");
 
