@@ -21,7 +21,11 @@
 
         render()
         {
-            
+            var   svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+svg.setAttribute("width", 600);
+svg.setAttribute("height", 300);
+
+document.body.appendChild(svg);
         }
     }
 
