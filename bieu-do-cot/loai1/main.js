@@ -9,17 +9,20 @@
 
     class PVC_BieuDoCot
     {
-        constructor (data, colors, width, height, maxX, maxY, border, khoangCachCot, chieuRongCot)
+        constructor (data, class, chieuRongHienThi, chieuCaoHienThi, maxX, maxY, border, 
+danhSachMauSacCot, khoangCachCot, chieuRongCot, classCot)
         {
             this.data = data;
-            this.colors = colors;
-            this.width = width;
-            this.height = height;
+this.class = class;
+            this.danhSachMauSacCot = danhSachMauSacCot;
+            this.chieuRongHienThi = chieuRongHienThi;
+            this.chieuCaoHienThi = chieuCaoHienThi;
             this.maxX = maxX;
             this.maxY = maxY;
 this.border = border;
 this.khoangCachCot = khoangCachCot;
 this.chieuRongCot = chieuRongCot;
+this.classCot = classCot;
 
         }
 
