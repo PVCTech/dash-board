@@ -9,7 +9,7 @@
 
     class PVC_BieuDoCot
     {
-        constructor (data, colors, width, height, maxX, maxY)
+        constructor (data, colors, width, height, maxX, maxY, border, khoangCachCot, chieuRongCot)
         {
             this.data = data;
             this.colors = colors;
@@ -17,6 +17,10 @@
             this.height = height;
             this.maxX = maxX;
             this.maxY = maxY;
+this.border = border;
+this.khoangCachCot = khoangCachCot;
+this.chieuRongCot = chieuRongCot;
+
         }
 
         render()
